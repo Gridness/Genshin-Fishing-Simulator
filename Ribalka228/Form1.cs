@@ -239,8 +239,9 @@ namespace Ribalka228
         {
             var fishingDotX = fishingDot.Location.X;
             var fishingDotY = fishingDot.Location.Y;
-
-            fishingDotX -= MS;
+            
+            if(fishingDotX >= fishingBar.Location.X && fishingDotX <= fishingBar.Location.X + fishingBar.Size.Width - fishingDot.Size.Width)
+                fishingDotX -= MS;
 
             fishingDot.Location = new Point(fishingDotX, fishingDotY);
         }
