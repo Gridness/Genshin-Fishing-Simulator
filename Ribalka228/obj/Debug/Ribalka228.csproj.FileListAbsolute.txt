@@ -1,0 +1,10 @@
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\bin\Debug\Ribalka228.exe.config
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\bin\Debug\Ribalka228.exe
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\bin\Debug\Ribalka228.pdb
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\obj\Debug\Ribalka228.csproj.AssemblyReference.cache
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\obj\Debug\Ribalka228.Main.resources
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\obj\Debug\Ribalka228.Properties.Resources.resources
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\obj\Debug\Ribalka228.csproj.GenerateResource.cache
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\obj\Debug\Ribalka228.csproj.CoreCompileInputs.cache
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\obj\Debug\Ribalka228.exe
+F:\Vse\Bots\Ribalka\Ribalka228\Ribalka228\obj\Debug\Ribalka228.pdb
