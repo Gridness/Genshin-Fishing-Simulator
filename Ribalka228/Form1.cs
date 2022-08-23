@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -80,7 +80,7 @@ namespace Ribalka228
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            // DO NOT REMOVE
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -141,7 +141,7 @@ namespace Ribalka228
 
         private void label1_Click(object sender, EventArgs e)
         {
-            // hueta ne nuzjnaja
+            // DO NOT REMOVE
         }
 
         private void positionShiftInterval_TextChanged(object sender, EventArgs e)
@@ -172,7 +172,8 @@ namespace Ribalka228
                 startButton.Enabled = false;
                 startButton.Text = "ТЫ ЕБЛАН, ЧЕЕЛ";
                 startButton.ForeColor = Color.Red;
-            } else
+            } 
+            else
             {
                 distanceError.Visible = false;
                 startButton.Enabled = true;
@@ -193,7 +194,7 @@ namespace Ribalka228
 
         private void fishingBar_Click(object sender, EventArgs e)
         {
-
+            // DO NOT REMOVE
         }
 
         private void dotMS_TextChanged(object sender, EventArgs e)
@@ -203,12 +204,12 @@ namespace Ribalka228
 
         private void patternLabel_Click(object sender, EventArgs e)
         {
-
+            // DO NOT REMOVE
         }
 
         private void fishingDot_Click(object sender, EventArgs e)
         {
-
+            // DO NOT REMOVE
         }
 
         private void changePosition()
@@ -222,11 +223,11 @@ namespace Ribalka228
 
         private void changeZone(int _minZone, int _maxZone)
         {
-            var sizePIDOORX = prjamougolnik.Size.Width;
-            var sizePIDOORY = prjamougolnik.Size.Height;
+            var sizePX = prjamougolnik.Size.Width;
+            var sizePY = prjamougolnik.Size.Height;
 
-            sizePIDOORX = rnd.Next(_minZone, _maxZone);
-            prjamougolnik.Size = new Size(sizePIDOORX, sizePIDOORY);
+            sizePX = rnd.Next(_minZone, _maxZone);
+            prjamougolnik.Size = new Size(sizePX, sizePY);
         }
 
         private void dropProperties(int x, int y, int height, int width)
@@ -250,11 +251,12 @@ namespace Ribalka228
         {
             if(fishingDot.Location.X >= prjamougolnik.Location.X && fishingDot.Location.X <= prX + prjamougolnik.Size.Width - fishingDot.Size.Width)
             {
-                comparisonLabel.Text = "Нихуя ты гений";
+                comparisonLabel.Text = "+";
                 comparisonLabel.ForeColor = Color.Green;
-            } else
+            } 
+            else
             {
-                comparisonLabel.Text = "Слабоват";
+                comparisonLabel.Text = "-";
                 comparisonLabel.ForeColor = Color.Red;
             }
         }
