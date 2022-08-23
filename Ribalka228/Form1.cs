@@ -170,7 +170,7 @@ namespace Ribalka228
             {
                 distanceError.Visible = true;
                 startButton.Enabled = false;
-                startButton.Text = "ТЫ ЕБЛАН, ЧЕЕЛ";
+                startButton.Text = "Ошибка дистанции";
                 startButton.ForeColor = Color.Red;
             } 
             else
